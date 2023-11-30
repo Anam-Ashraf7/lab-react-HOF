@@ -1,0 +1,37 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+
+}
+
+body {
+  background-color: white;
+  color: black;
+  justify-content: center;
+  text-align: center;
+  display: block;
+}
+
+#root {
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+.display-box {
+  border: 2px solid rebeccapurple;
+  text-align: left;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.display-box span {
+  padding: 20px;
+}
