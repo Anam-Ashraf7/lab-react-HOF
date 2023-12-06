@@ -42,7 +42,7 @@ export class HigherOrderComponent extends Component {
     }
 
     filterItemsByAge(data) {
-        const filterData = data.filter(item => 28 < item.age <= 50)
+        const filterData = data.filter(item => item.age > 28 && item.age <= 50)
         return this.mapItems(filterData)
     }
 
